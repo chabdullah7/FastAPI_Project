@@ -6,7 +6,7 @@ A production-ready FastAPI backend that serves machine learning predictions with
 
 # Overview
 
-This project implements a REST API that exposes a machine learning model for prediction.
+This project implements a API that exposes a machine learning model for prediction.
 The API is built using **FastAPI**, integrates **JWT authentication** for security, and uses **Redis caching** to optimize prediction performance.
 
 The system is designed to simulate a real-world production API used in AI applications.
@@ -61,7 +61,7 @@ The API layer handles requests, the service layer manages business logic, Redis 
 
 ## FastAPI Framework
 
-FastAPI is used to build a high-performance REST API.
+FastAPI is used to build a high-performance API.
 
 Key benefits:
 
@@ -70,7 +70,7 @@ Key benefits:
 * automatic API documentation
 * asynchronous request handling
 
-FastAPI also automatically generates interactive API documentation using Swagger and ReDoc.
+FastAPI also automatically generates interactive API documentation using Swagger.
 
 ---
 
@@ -216,12 +216,6 @@ Swagger UI:
 
 ```
 /docs
-```
-
-ReDoc:
-
-```
-/redoc
 ```
 
 These interfaces allow developers to test API endpoints directly from the browser.
