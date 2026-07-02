@@ -271,6 +271,6 @@ JWT Authentication
 
 # Author
 
-Abdullah
-
-AI Engineer
+**Abdullah**  
+AI/ML Engineer  
+www.linkedin.com/in/chabdullah7
